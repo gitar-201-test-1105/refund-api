@@ -22,6 +22,7 @@ class RefundOut(BaseModel):
     charge_id: str
     amount_cents: int
     reason: str | None
+    reason_code: str | None
     created_at: datetime
 
 
